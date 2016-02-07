@@ -1,8 +1,8 @@
-#Tmux-mouse
+# Tmux-mouse
 
 This is a tmux plugin to correctly set mouse settings based on the detected Tmux version. This was created to address the changes in how mouse configuration was handled in Tmux v2.1.
 
-# Explanation
+## Explanation
 
 Prior to Tmux 2.1 there were a number of Tmux settings that dealt with mouse behavior. With 2.1 things have been simplified so that there is a single setting to enable mouse control. While this change is probably for the best, it does create a compatibility problem for people that use diferent versions in different places (but share a configuration file). This plugin aims to help deal with that!
 
